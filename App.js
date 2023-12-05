@@ -20,7 +20,7 @@ const User = require('./Routes/user')
 
 app.use(cors({
     credentials: true,
-    origin: 'http://localhost:5173'
+    origin: 'https://656f39007be47b0080534967--cosmic-capybara-0d999c.netlify.app'
 }));
 
 app.use(User)
